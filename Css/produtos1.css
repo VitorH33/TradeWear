@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+:root{
+    --main-color: #05C0E9;
+    --sec-color: #ffffff;
+    --text-color: #171427;
+    --bg-color: #fff;
+}
+
+.container{
+    max-width: 1568px;
+    margin: auto;
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-color);
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    z-index: 100;
+    background: black;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--sec-color);
+    text-transform: uppercase;
+}
+.logo span{
+    color: var(--main-color);
+    font-weight: 700;
+}
+#heart-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #ffffff;
+    list-style:none;
+    padding: 0 10px;
+    
+}
+
+#heart-icon:hover{
+    color: #838383;
+    transition: 0.3s ease;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style:none;
+    padding: 0 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+    letter-spacing: 2px;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(136, 136, 136);
+}
+
+#navbar li a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: 088178;
+    position: absolute;
+    bottom: -4px;
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color:rgb(255, 255, 255);
+    background-color: #05C0E9;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button:hover{
+    background: #838383;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+h1 { 
+    font-size: 50px;
+    line-height: 64px;
+    color:rgb(0, 0, 0)
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: rgb(0, 0, 0);
+}
+
+h4{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+P {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+#ff{
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.fotos {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.fotos img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.b{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+}
+
+/*produtos*/
+
+#prodetails {
+    display: flex;
+    margin-top: 100px;
+}
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor:pointer;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4{
+    padding: 30px;
+}
+
+#prodetails .single-pro-details h2 {
+    padding: 30px;
+    line-height: 25px;
+}
+
+#prodetails .single-pro-details button {
+    background: #05C0E9;
+    color: #fff;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+#prodetails .single-pro-details button:hover{
+    background: #838383;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 30px;
+    padding: 0px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.b{
+    width: 500px;
+    height: 100px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+}
+
+.trade-button {
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 10px;
+    left: 3%;
+    position: relative;
+    outline: none;
+    border: none;
+    width: 15%;
+    color: #fff;
+    cursor: pointer;
+    background: #05C0E9;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+}

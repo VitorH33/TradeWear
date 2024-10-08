@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tênis Nike Dunk Low</title>
+    <link rel="icon" href="../img/Trade Wear pqn11.png" type="image/icon type">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Css/produtos1.css'>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <img src="../img/Trade Wear pqn11.png">
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a class="active" href="../produtos.php">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>    
+            <div>
+                <i class='bx bx-heart' id="heart-icon"></i>
+                <i class='bx bx-user' id="heart-icon" onclick="window.location.href='../entrar.php';"></i> 
+            </div>
+        </div>
+    </header>
+
+    <div class="b"></div>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="../img produtos/dunk1.avif" width="100%" class="MainImg" id="mainimgid" onclick="changeImage(this.src)">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="../img produtos/dunk1.avif" width="100%" class="small-img" id="2" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img produtos/dunk2.avif" width="100%" class="small-img" id="1" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img produtos/dunk3.avif" width="100%" class="small-img" id="3" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img produtos/dunk4.avif" width="100%" class="small-img" id="4" onclick="changeImage(this)" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h2>Tênis</h2>
+            <h4>Tênis Nike Dunk Low</h4>
+            <h4>Tamanho: 37</h4>
+            <button class="normal">Trade</button>
+            <div class="b"></div>
+            <h2>Descrição</h2>
+            <span>Criado para o campo, mas levado para as ruas, o ícone do basquete dos anos 80 retorna com materiais clássicos e um toque retrô. Canalizando o estilo vintage de volta às ruas, a gola acolchoada permite que você leve seu jogo para qualquer lugar com conforto.</span>
+
+        </div>
+    </section>
+
+    <script>
+        function changeImage(img) {
+        document.getElementById("mainimgid").src=img.src;
+        document.getElementById("text").innerText = img.alt
+  
+        }
+        </script>
+
+</body>
+</html>

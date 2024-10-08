@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Camisa PSG</title>
+    <link rel="icon" href="../img/Trade Wear pqn11.png" type="image/icon type">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Css/produtos1.css'>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <img src="../img/Trade Wear pqn11.png">
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a class="active" href="../produtos.php">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>    
+            <div>
+                <i class='bx bx-heart' id="heart-icon"></i>
+                <i class='bx bx-user' id="heart-icon" onclick="window.location.href='../entrar.php';"></i> 
+            </div>
+        </div>
+    </header>
+
+    <div class="b"></div>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="../img/psg1.webp" width="100%" class="MainImg" id="mainimgid" onclick="changeImage(this.src)">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="../img/psg1.webp" width="100%" class="small-img" id="2" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img/psg2.webp" width="100%" class="small-img" id="1" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img/psg3.webp" width="100%" class="small-img" id="3" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img/psg4.webp" width="100%" class="small-img" id="4" onclick="changeImage(this)" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h2>Camisas</h2>
+            <h4>Camisa PSG</h4>
+            <h4>Tamanho: GG</h4>
+            <button class="normal">Trade</button>
+            <div class="b"></div>
+            <h2>Descrição</h2>
+            <span>A icônica camisa azul do Paris Saint-Germain, criada pela Nike, é um símbolo de grandeza e talento. Com Messi, Neymar e Mbappé como embaixadores, ela representa o poder ofensivo e a magia do futebol. Seja parte dessa história de sucesso, vista o manto parisiense e torne-se um verdadeiro fã. Não perca essa oportunidade, adquira agora a camisa do PSG e celebre a excelência do futebol em grande estilo!</span>
+
+        </div>
+    </section>
+
+    <script>
+        function changeImage(img) {
+        document.getElementById("mainimgid").src=img.src;
+        document.getElementById("text").innerText = img.alt
+  
+        }
+        </script>
+
+</body>
+</html>

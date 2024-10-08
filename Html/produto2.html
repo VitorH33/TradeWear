@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tênis Nike Pegasus</title>
+    <link rel="icon" href="../img/Trade Wear pqn11.png" type="image/icon type">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Css/produtos1.css'>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <img src="../img/Trade Wear pqn11.png">
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="index.html">Inicio</a></li>
+                    <li><a href="../produtos.php">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>    
+            <div>
+                <i class='bx bx-heart' id="heart-icon"></i>
+                <i class='bx bx-user' id="heart-icon" onclick="window.location.href='../entrar.php';"></i> 
+            </div>
+        </div>
+    </header>
+
+    <div class="b"></div>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="../img produtos/025803ID1.avif" width="100%" class="MainImg" id="mainimgid" onclick="changeImage(this.src)">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="../img produtos/025803ID1.avif" width="100%" class="small-img" id="2" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img produtos/025803IDA12.avif" width="100%" class="small-img" id="1" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img produtos/025803IDA23.avif" width="100%" class="small-img" id="3" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img produtos/025803IDA34.avif" width="100%" class="small-img" id="4" onclick="changeImage(this)" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h2>Tênis</h2>
+            <h4>Tênis Nike Pegasus</h4>
+            <h4>Tamanho: 38</h4>
+            <button class="normal">Trade</button>
+            <div class="b"></div>
+            <h2>Descrição</h2>
+            <span>Uma passada elástica para qualquer corrida, a sensação familiar e perfeita do Peg retorna para ajudá-lo a atingir seus objetivos. Esta versão marcante tem a mesma capacidade de resposta que você adora, mas com melhor conforto nas áreas sensíveis do pé, como o arco e os dedos. Esteja correndo longas maratonas, fazendo uma sessão de velocidade antes do pôr do sol ou pulando em um passeio espontâneo em grupo, ainda é o corredor de estrada estabelecido no qual você pode confiar, dia após dia, corrida após corrida.</span>
+
+        </div>
+    </section>
+
+    <script>
+        function changeImage(img) {
+        document.getElementById("mainimgid").src=img.src;
+        document.getElementById("text").innerText = img.alt
+  
+        }
+        </script>
+
+</body>
+</html>

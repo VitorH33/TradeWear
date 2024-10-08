@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Óculos de Sol</title>
+    <link rel="icon" href="../img/Trade Wear pqn11.png" type="image/icon type">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Css/produtos1.css'>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <img src="../img/Trade Wear pqn11.png">
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a class="active" href="../produtos.php">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>    
+            <div>
+                <i class='bx bx-heart' id="heart-icon"></i>
+                <i class='bx bx-user' id="heart-icon" onclick="window.location.href='../entrar.php';"></i> 
+            </div>
+        </div>
+    </header>
+
+    <div class="b"></div>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="../img/oculos1.jpg" width="100%" class="MainImg" id="mainimgid" onclick="changeImage(this.src)">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="../img/oculos1.jpg" width="100%" class="small-img" id="2" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img/oculos2.jpg" width="100%" class="small-img" id="1" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img/oculos3.jpg" width="100%" class="small-img" id="3" onclick="changeImage(this)" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="../img/oculos4.jpg" width="100%" class="small-img" id="4" onclick="changeImage(this)" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h2>Acessórios</h2>
+            <h4>Óculos de Sol</h4>
+            <h4>Tamanho: Largura das lentes 57 mm</h4>
+            <button class="normal">Trade</button>
+            <div class="b"></div>
+            <h2>Descrição</h2>
+            <span>O Óculos de Sol Feminino Ralph Lauren é fabricado em metal e acetato de alta qualidade, o solar possui filtros UV de proteção em suas lentes, além de ser o acessório ideal para completar o visual em qualquer ocasião. Suas hastes e frontal mesclando metal e acetato proporciona maior elegância e resistência, pois são materiais mais nobres usados na fabricação de óculos.</span>
+
+        </div>
+    </section>
+
+    <script>
+        function changeImage(img) {
+        document.getElementById("mainimgid").src=img.src;
+        document.getElementById("text").innerText = img.alt
+  
+        }
+        </script>
+
+</body>
+</html>
