@@ -55,13 +55,13 @@
         <div class="b"></div>
         <div class="shop-content">
             <div class="product-box" data-category="Camisas">
-                <img src="img produtos/milan.webp" class="product-img" onclick="window.location.href='Html/produto4.html';">
+                <img src="img/milan.webp" class="product-img" onclick="window.location.href='Html/produto4.html';">
                 <h2 class="product-title">Camisa AC Milan</h2>
                 <span class="product-des">Camisas</span>
                 <i class='bx bx-heart add-heart'></i>
             </div>
             <div class="product-box" data-category="Tênis">
-                <img src="img produtos/dunk1.avif" alt="" class="product-img" onclick="window.location.href='Html/produto5.html';">
+                <img src="img/dunk1.avif" alt="" class="product-img" onclick="window.location.href='Html/produto5.html';">
                 <h2 class="product-title">Tênis Nike Dunk Low</h2>
                 <span class="product-des">Tênis</span>
                 <i class='bx bx-heart add-heart'></i>
@@ -79,7 +79,7 @@
                 <i class='bx bx-heart add-heart'></i>
             </div>
             <div class="product-box" data-category="Acessórios">
-                <img src="img produtos/gorro.webp" alt="" class="product-img">
+                <img src="img/gorro.webp" alt="" class="product-img">
                 <h2 class="product-title">Gorro chronic</h2>
                 <span class="product-des">Acessórios</span>
                 <i class='bx bx-heart add-heart'></i>
@@ -91,7 +91,7 @@
                 <i class='bx bx-heart add-heart'></i>
             </div>
             <div class="product-box" data-category="Acessórios">
-                <img src="img produtos/bone.jfif" alt="" class="product-img">
+                <img src="img/bone.jfif" alt="" class="product-img">
                 <h2 class="product-title">boné los angeles</h2>
                 <span class="product-des">Acessórios</span>
                 <i class='bx bx-heart add-heart'></i>

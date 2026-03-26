@@ -33,7 +33,7 @@ $cd_usuario = $_SESSION['cd_usuario'];
             </div>    
             <div> 
                 <i class='bx bx-heart' id="heart-icon"></i>   
-                <i class='bx bx-user' id="heart-icon" onclick="window.location.href='Entrar.php';"></i> 
+                <i class='bx bx-user' id="heart-icon" onclick="window.location.href='entrar.php';"></i> 
         </div>
     </header>
 
